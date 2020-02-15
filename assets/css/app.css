@@ -2654,6 +2654,7 @@ aside ul li {
     text-decoration: none;
     border-radius: 3px;
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
+    border: 1px solid #f3f3f3;
 }
 
 .posts-content .kg-bookmark-container:hover {
