@@ -47,7 +47,7 @@
                             order: "published_at desc"
                         }) --}
                 }
-                $.get('/ghost/api/v3/content/posts?limit=all&order=published_at+desc&key=a952897b4a9f8e61053cdba530').done(function (data) {
+                $.get('/ghost/api/v3/content/posts?limit=all&order=published_at+desc&key=a952897b4a9f8e61053cdba530', function (data) {
                     var posts = data.posts;
                     var count = posts.length;
                     for (var i = 0; i < count; i++) {
@@ -73,8 +73,6 @@
                             $(html).appendTo('.archives')
                         }
                     }
-                }).fail(function (err) {
-                    console.log(err)
                 })
             });
 </script>
