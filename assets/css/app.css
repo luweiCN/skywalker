@@ -2779,8 +2779,8 @@ aside ul li {
     .kg-bookmark-title,
     .kg-bookmark-description,
     .kg-bookmark-metadata {
-        font-size: 1.4rem;
-        line-height: 1.5em;
+        font-size: 15px;
+        line-height: 1.5;
     }
 
     .posts-content .kg-bookmark-icon {
