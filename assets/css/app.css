@@ -2645,7 +2645,7 @@ aside ul li {
     margin-top: 0;
 }
 
-.post-full-content .kg-bookmark-container {
+.post-content .kg-bookmark-container {
     display: flex;
     min-height: 148px;
     color: var(--darkgrey);
@@ -2656,7 +2656,7 @@ aside ul li {
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
 }
 
-.post-full-content .kg-bookmark-container:hover {
+.post-content .kg-bookmark-container:hover {
     color: var(--darkgrey);
     text-decoration: none;
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
@@ -2679,7 +2679,7 @@ aside ul li {
     transition: color 0.2s ease-in-out;
 }
 
-.post-full-content .kg-bookmark-container:hover .kg-bookmark-title {
+.post-content .kg-bookmark-container:hover .kg-bookmark-title {
     color: var(--blue);
 }
 
@@ -2724,7 +2724,7 @@ aside ul li {
     font-weight: 400;
 }
 
-.post-full-content .kg-bookmark-icon {
+.post-content .kg-bookmark-icon {
     margin-right: 8px;
     width: 22px;
     height: 22px;
@@ -2748,30 +2748,30 @@ aside ul li {
 }
 
 @media (max-width: 800px) {
-    .post-full-content figure {
+    .post-content figure {
         margin: 0.2em 0 1.3em;
     }
 
-    .post-full-content h1 + figure,
-    .post-full-content h2 + figure,
-    .post-full-content h3 + figure,
-    .post-full-content h4 + figure {
+    .post-content h1 + figure,
+    .post-content h2 + figure,
+    .post-content h3 + figure,
+    .post-content h4 + figure {
         margin-top: 0.9em;
     }
 }
 
 @media (max-width: 500px) {
-    .post-full-content .kg-width-wide,
-    .post-full-content .kg-width-full {
+    .post-content .kg-width-wide,
+    .post-content .kg-width-full {
         margin-right: -5vw;
         margin-left: -5vw;
     }
 
-    .post-full-content figcaption {
+    .post-content figcaption {
         margin-bottom: 0.4em;
     }
 
-    .post-full-content .kg-bookmark-container {
+    .post-content .kg-bookmark-container {
         flex-direction: column;
     }
 
@@ -2782,7 +2782,7 @@ aside ul li {
         line-height: 1.5em;
     }
 
-    .post-full-content .kg-bookmark-icon {
+    .post-content .kg-bookmark-icon {
         width: 18px;
         height: 18px;
     }
