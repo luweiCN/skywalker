@@ -2674,7 +2674,7 @@ aside ul li {
 .kg-bookmark-title {
     color: color(var(--midgrey) l(-30%));
     font-size: 15px;
-    line-height: 2;
+    line-height: 1;
     font-weight: 600;
     transition: color 0.2s ease-in-out;
 }
@@ -2690,7 +2690,7 @@ aside ul li {
     max-height: 48px;
     color: color(var(--midgrey) l(-10%));
     font-size: 15px;
-    line-height: 2;
+    line-height: 1;
     font-weight: normal;
 
     -webkit-line-clamp: 2;
@@ -2743,9 +2743,15 @@ aside ul li {
 .kg-bookmark-publisher {
     overflow: hidden;
     max-width: 240px;
-    line-height: 1.5em;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: #51bbf6;
+    overflow: hidden;
+    max-width: 240px;
+    white-space: nowrap;
+    display: block;
+    line-height: 1;
+    font-size: 15px;
 }
 
 @media (max-width: 800px) {
